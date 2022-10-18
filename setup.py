@@ -56,9 +56,9 @@ setup(
     author_email='chxlll@126.com',
     description='An easy toolbox for deploying and accelerating PyTorch, Onnx and Tensorflow models with TensorRT.',
     long_description=read('README.md'),
-    setup_requires=[
-        'tensorrt>=7.1.0.*',
-    ],
+    #setup_requires=[
+    #    'tensorrt>=7.1.0.*',
+    #],
     install_requires=[
         'numpy',
         'torch>=1.4.*',
